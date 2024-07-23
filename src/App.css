@@ -1,0 +1,66 @@
+body{
+  background: rgb(11,13,51);
+  background: linear-gradient(rgba(18,18,18,1) 0%, rgba(255,65,18,1) 100%);
+  background-attachment: fixed;
+}
+
+.Portfolio, .Miner, .userName{
+  background-color: rgba(255, 253, 238, 50%);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  padding: 10px;
+  border-radius: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+table{
+  margin: auto;
+}
+
+.tableLeft{
+  text-align: left;
+}
+
+.tableRight{
+  text-align: right;
+}
+
+td, th{
+  padding: 10px;
+}
+
+.currency, .minerLogo{
+  width: 25px;
+}
+
+.logo {
+  max-width: 500px;
+  display: block;
+  margin: 50px auto;
+}
+
+.userNameInput{
+  width: 200px;
+  height: 30px;
+  margin-top: 20px;
+  border-width: 0;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.userNameSubmit{
+  width: 120px;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 65, 18, 80%);
+  border-width: 0px;
+  border-radius: 20px;
+  font-weight: bolder;
+  font-size: 20px;
+}
